@@ -1,3 +1,6 @@
-<div class="card" [style.background-color]="color">
+<div
+  class="card"
+  [style.color]="bright ? 'black' : 'white'"
+  [style.background-color]="color">
   <ng-content></ng-content>
 </div>

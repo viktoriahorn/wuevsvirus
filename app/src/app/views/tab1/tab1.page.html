@@ -14,6 +14,16 @@
   </ion-header>
 
   <div class="page">
+    <app-card 
+      *ngIf="checkInData"
+      bright="true"
+      color="white">
+      <h2>Neuer Check-In</h2>
+      <p style="color: black !important">Du bist hier eingecheckt: {{ checkInData.name }} </p>
+      <ion-button
+        (click)="confirmCheckInNotice()"
+        color="primary">Ok</ion-button>
+    </app-card>
     <app-card color="#3171e0">
       <h2>Niedrige Gefahr</h2>
       <p>Keine Kontakte bekannt.</p>
