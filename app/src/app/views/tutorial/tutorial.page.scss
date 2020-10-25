@@ -1,5 +1,12 @@
 ion-slide {
   height: 100vh;
   flex-direction: column;
-  text-align: justify;
+  width: 90vw;
+  display: flex;
+  justify-items: left;
+}
+
+ion-slide button {
+  display: flex;
+  justify-self: center;
 }
