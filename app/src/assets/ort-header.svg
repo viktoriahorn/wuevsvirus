@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="376" height="343" viewBox="0 0 376 343">
+  <defs>
+    <clipPath id="clip-Zeichenfläche_1">
+      <rect width="376" height="343"/>
+    </clipPath>
+  </defs>
+  <g id="Zeichenfläche_1" data-name="Zeichenfläche – 1" clip-path="url(#clip-Zeichenfläche_1)">
+    <rect width="376" height="343" fill="#fff"/>
+    <g id="Komponente_283_2" data-name="Komponente 283 – 2" transform="translate(26 17)">
+      <path id="Pfad_27" data-name="Pfad 27" d="M44.132,62.743c38.983-35.679,55.975-42.288,106.1-52.991s63.012-15.908,94.4,10.177c21.93,18.224,21.846,74.048,0,132.537s-12.517,94.4-103.76,96.742S18.484,199.082-5.7,152.466,5.149,98.422,44.132,62.743Z" transform="translate(27 23)" fill="#bbe2db"/>
+      <text id="Fulda" transform="translate(158 288)" fill="#0d0f40" font-size="40" font-family="Lato-Heavy, Lato" font-weight="800"><tspan x="-48.71" y="0">Fulda</tspan></text>
+      <g id="Gruppe_12" data-name="Gruppe 12" transform="translate(-22 -91)">
+        <g id="Ellipse_4" data-name="Ellipse 4" transform="translate(100 151)" fill="#f24638" stroke="#f24638" stroke-width="1">
+          <circle cx="8" cy="8" r="8" stroke="none"/>
+          <circle cx="8" cy="8" r="7.5" fill="none"/>
+        </g>
+        <g id="Ellipse_5" data-name="Ellipse 5" transform="translate(48 172)" fill="#f24638" stroke="#f24638" stroke-width="1">
+          <circle cx="10.5" cy="10.5" r="10.5" stroke="none"/>
+          <circle cx="10.5" cy="10.5" r="10" fill="none"/>
+        </g>
+        <g id="Ellipse_6" data-name="Ellipse 6" transform="translate(64 133)" fill="#f24638" stroke="#f24638" stroke-width="1">
+          <circle cx="5" cy="5" r="5" stroke="none"/>
+          <circle cx="5" cy="5" r="4.5" fill="none"/>
+        </g>
+        <g id="Ellipse_7" data-name="Ellipse 7" transform="translate(74 162)" fill="#f24638" stroke="#f24638" stroke-width="1">
+          <circle cx="5" cy="5" r="5" stroke="none"/>
+          <circle cx="5" cy="5" r="4.5" fill="none"/>
+        </g>
+        <g id="Ellipse_8" data-name="Ellipse 8" transform="translate(260 327)" fill="#f24638" stroke="#f24638" stroke-width="1">
+          <circle cx="8" cy="8" r="8" stroke="none"/>
+          <circle cx="8" cy="8" r="7.5" fill="none"/>
+        </g>
+        <g id="Ellipse_9" data-name="Ellipse 9" transform="translate(286 301)" fill="#f24638" stroke="#f24638" stroke-width="1">
+          <circle cx="5" cy="5" r="5" stroke="none"/>
+          <circle cx="5" cy="5" r="4.5" fill="none"/>
+        </g>
+        <g id="Ellipse_10" data-name="Ellipse 10" transform="translate(281 324)" fill="#f24638" stroke="#f24638" stroke-width="1">
+          <circle cx="4" cy="4" r="4" stroke="none"/>
+          <circle cx="4" cy="4" r="3.5" fill="none"/>
+        </g>
+      </g>
+      <text id="_41_7" data-name="41,7" transform="translate(88 105)" fill="#ecf7f5" font-size="70" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="65">41,7</tspan></text>
+      <text id="Inzidenzwert" transform="translate(90 206)" fill="#ecf7f5" font-size="25" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="23">Inzidenzwert</tspan></text>
+      <text id="_50_" data-name="50
+" transform="translate(269)" fill="#f24638" font-size="40" font-family="Roboto-Bold, Roboto" font-weight="700" opacity="0.996"><tspan x="0" y="37">50</tspan></text>
+      <text id="_35_" data-name="35
+" transform="translate(0 219)" fill="#bbe2db" font-size="40" font-family="Roboto-Bold, Roboto" font-weight="700" opacity="0.8"><tspan x="0" y="37">35</tspan></text>
+    </g>
+  </g>
+</svg>
