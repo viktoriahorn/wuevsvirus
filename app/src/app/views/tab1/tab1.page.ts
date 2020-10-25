@@ -14,7 +14,7 @@ export class Tab1Page implements OnInit {
     this.checkInData = {
       id: 'ID',
       time: '20:15',
-      name: 'Standard'
+      name: 'Cafe Standard'
     };
   }
 

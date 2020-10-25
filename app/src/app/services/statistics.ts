@@ -11,7 +11,7 @@ export class StatisticsService {
     return data;
   }
 
-  public getByLocation(): Promise<JSON> {
+  public getByLocation(zip: string): Promise<JSON> {
     return null;
   }
 }

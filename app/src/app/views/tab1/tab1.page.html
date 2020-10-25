@@ -19,14 +19,18 @@
       bright="true"
       color="white">
       <h2>Neuer Check-In</h2>
-      <p style="color: black !important">Du bist hier eingecheckt: {{ checkInData.name }} </p>
+      <p>Du bist eingecheckt: <b>{{ checkInData.name }}</b> </p>
       <ion-button
         (click)="confirmCheckInNotice()"
+        [style.float]="'right'"
         color="primary">Ok</ion-button>
     </app-card>
     <app-card color="#3171e0">
-      <h2>Niedrige Gefahr</h2>
-      <p>Keine Kontakte bekannt.</p>
+      <h2>Niedriges Risiko</h2>
+      <div class="row">
+        <ion-icon size="large" name="people-outline"></ion-icon>
+        <p>Keine kritischen Begegnungen</p>
+      </div>
     </app-card>
   </div>
 </ion-content>

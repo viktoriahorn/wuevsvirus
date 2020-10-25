@@ -14,9 +14,7 @@ export class TutorialPage implements OnInit {
     private readonly router: Router,
   ) { }
 
-  ngOnInit() {
-    
-  }
+  ngOnInit() { }
 
   next() {
     this.slides.slideNext();

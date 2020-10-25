@@ -234,3 +234,12 @@
 .page {
   padding: 16px;
 }
+
+.row {
+  display: flex;
+  align-items: center;
+}
+
+.row ion-icon {
+  margin: 0 12px;
+}
