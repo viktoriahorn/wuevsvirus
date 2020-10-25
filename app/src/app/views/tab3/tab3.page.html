@@ -1,9 +1,23 @@
-<ion-header>
-  <ion-toolbar color="primary">
-    <ion-title>Eigenes Event</ion-title>
-  </ion-toolbar>
-</ion-header>
 
 <ion-content>
-
+  <app-top-bar></app-top-bar>
+  <div class="page">
+    <ng-container *ngIf="!createMode">
+      <div class="small-img-wrapper">
+        <img src="assets/Events.svg">
+        <h1>Deine<br>Veranstaltungen</h1>
+      </div>
+      <ng-container *ngFor="let item of events">
+        <app-event-item [title]="item.title" [date]="item.date" (delete)="deleteEvent($event)"></app-event-item>
+      </ng-container>
+      <app-row-button label="Eigenes Event erstellen" (callback)="createMode = !createMode"></app-row-button> 
+    </ng-container>
+    <ng-container *ngIf="createMode">
+      <div class="small-img-wrapper">
+        <img src="assets/Events.svg">
+        <h1>Veranstaltung<br>erstellen</h1>
+      </div>
+      <app-row-button label="Eigenes Event erstellen" (callback)="createMode = !createMode"></app-row-button> 
+    </ng-container>
+  </div>
 </ion-content>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="277" height="277" viewBox="0 0 277 277">
+  <defs>
+    <clipPath id="clip-CheckIn_Green">
+      <rect width="277" height="277"/>
+    </clipPath>
+  </defs>
+  <g id="CheckIn_Green" clip-path="url(#clip-CheckIn_Green)">
+    <rect width="277" height="277" fill="#fff"/>
+    <path id="Pfad_27" data-name="Pfad 27" d="M44.132,62.743c38.983-35.679,55.975-42.288,106.1-52.991s63.012-15.908,94.4,10.177c21.93,18.224,21.846,74.048,0,132.537s-12.517,94.4-103.76,96.742S18.484,199.082-5.7,152.466,5.149,98.422,44.132,62.743Z" transform="translate(15 13)" fill="#bbe2db"/>
+    <g id="Gruppe_12" data-name="Gruppe 12" transform="translate(-34 -101)">
+      <g id="Ellipse_4" data-name="Ellipse 4" transform="translate(100 151)" fill="#68bfaf" stroke="#68bfaf" stroke-width="1">
+        <circle cx="8" cy="8" r="8" stroke="none"/>
+        <circle cx="8" cy="8" r="7.5" fill="none"/>
+      </g>
+      <g id="Ellipse_5" data-name="Ellipse 5" transform="translate(48 172)" fill="#68bfaf" stroke="#68bfaf" stroke-width="1">
+        <circle cx="10.5" cy="10.5" r="10.5" stroke="none"/>
+        <circle cx="10.5" cy="10.5" r="10" fill="none"/>
+      </g>
+      <g id="Ellipse_6" data-name="Ellipse 6" transform="translate(64 133)" fill="#68bfaf" stroke="#68bfaf" stroke-width="1">
+        <circle cx="5" cy="5" r="5" stroke="none"/>
+        <circle cx="5" cy="5" r="4.5" fill="none"/>
+      </g>
+      <g id="Ellipse_7" data-name="Ellipse 7" transform="translate(74 162)" fill="#68bfaf" stroke="#68bfaf" stroke-width="1">
+        <circle cx="5" cy="5" r="5" stroke="none"/>
+        <circle cx="5" cy="5" r="4.5" fill="none"/>
+      </g>
+      <g id="Ellipse_8" data-name="Ellipse 8" transform="translate(260 327)" fill="#68bfaf" stroke="#68bfaf" stroke-width="1">
+        <circle cx="8" cy="8" r="8" stroke="none"/>
+        <circle cx="8" cy="8" r="7.5" fill="none"/>
+      </g>
+      <g id="Ellipse_9" data-name="Ellipse 9" transform="translate(286 301)" fill="#68bfaf" stroke="#68bfaf" stroke-width="1">
+        <circle cx="5" cy="5" r="5" stroke="none"/>
+        <circle cx="5" cy="5" r="4.5" fill="none"/>
+      </g>
+      <g id="Ellipse_10" data-name="Ellipse 10" transform="translate(281 324)" fill="#68bfaf" stroke="#68bfaf" stroke-width="1">
+        <circle cx="4" cy="4" r="4" stroke="none"/>
+        <circle cx="4" cy="4" r="3.5" fill="none"/>
+      </g>
+    </g>
+    <path id="Pfad_30" data-name="Pfad 30" d="M49.542,95.78,18.715,64.953A8.719,8.719,0,0,0,6.384,77.284l36.9,36.9a8.771,8.771,0,0,0,12.419,0l93.362-93.274A8.719,8.719,0,1,0,136.738,8.584Z" transform="translate(60.678 77.486)" fill="#fff"/>
+  </g>
+</svg>

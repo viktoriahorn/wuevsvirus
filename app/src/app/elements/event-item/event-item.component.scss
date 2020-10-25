@@ -1,0 +1,30 @@
+.item {
+  border: 1px solid rgba(0,0,0,0.2);
+  border-radius: 16px;
+  padding: 8px 0;
+  .item-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .item-column {
+    display: flex;
+    flex-direction: column;
+  }
+  .item-column p {
+    margin: 4px 0;
+  }
+  .button-wrapper {
+    background-color:#8286C5;
+    border-radius: 50px;
+    height: 35px;
+    width: 35px;
+    display: flex;
+    align-self: center;
+    margin-right: 16px;
+  }
+  .button-wrapper ion-icon {
+    margin: auto;
+    color: white;
+  }
+}

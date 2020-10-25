@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="277" height="277" viewBox="0 0 277 277">
+  <defs>
+    <clipPath id="clip-Mark_Green">
+      <rect width="277" height="277"/>
+    </clipPath>
+  </defs>
+  <g id="Mark_Green" clip-path="url(#clip-Mark_Green)">
+    <rect width="277" height="277" fill="#fff"/>
+    <circle id="Ellipse_1" data-name="Ellipse 1" cx="129.5" cy="129.5" r="129.5" transform="translate(9 9)" fill="#bbe2db"/>
+    <g id="done-24px" transform="translate(45.302 40.764)">
+      <path id="Pfad_29" data-name="Pfad 29" d="M0,0H186.55V190.585H0Z" fill="none"/>
+      <path id="Pfad_30" data-name="Pfad 30" d="M49.594,95.883,18.732,65.021A8.729,8.729,0,0,0,6.387,77.366l36.947,36.947a8.781,8.781,0,0,0,12.433,0l93.469-93.381A8.729,8.729,0,0,0,136.891,8.587Z" transform="translate(4.688 35.901)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

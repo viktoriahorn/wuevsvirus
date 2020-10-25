@@ -1,21 +1,9 @@
-<ion-header [translucent]="true">
-  <ion-toolbar color="primary">
-    <ion-title>
-      Tracing
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tracing</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <app-top-bar></app-top-bar>
 
   <div class="page">
     <app-card 
-      *ngIf="checkInData"
+      *ngIf="false"
       bright="true"
       color="white">
       <h2>Neuer Check-In</h2>
@@ -25,12 +13,22 @@
         [style.float]="'right'"
         color="primary">Ok</ion-button>
     </app-card>
-    <app-card color="#3171e0">
-      <h2>Niedriges Risiko</h2>
-      <div class="row">
-        <ion-icon size="large" name="people-outline"></ion-icon>
-        <p>Keine kritischen Begegnungen</p>
-      </div>
-    </app-card>
+    <div
+      (click)="toggleRisk = !toggleRisk"
+      *ngIf="!toggleRisk"
+      class="img-wrapper">
+      <img src="assets/Corona_Green.svg">
+      <h1>Niedriges Risiko</h1>
+      <h5>2 Begegnungen<span>mit niedrigem Risiko</span></h5>
+    </div>
+    <div
+      (click)="toggleRisk = !toggleRisk"
+      *ngIf="toggleRisk"
+      class="img-wrapper">
+      <img src="assets/Corona_Red.svg">
+      <h1>Hohes Risiko</h1>
+      <h5>4 Begegnungen<span>mit hohem Risiko</span></h5>
+    </div>
+    <app-row-button label="Positiven Fall melden" (callback)="null"></app-row-button>
   </div>
 </ion-content>

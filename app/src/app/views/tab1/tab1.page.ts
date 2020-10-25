@@ -8,6 +8,7 @@ import { CheckInData } from 'src/app/types/checkInData';
 })
 export class Tab1Page implements OnInit {
   public checkInData: CheckInData;
+  public toggleRisk = false;
   constructor() {}
 
   ngOnInit(): void {

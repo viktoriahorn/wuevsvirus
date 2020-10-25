@@ -6,6 +6,8 @@ import { Tab1Page } from './tab1.page';
 
 import { Tab1PageRoutingModule } from './tab1-routing.module';
 import { CardComponent } from 'src/app/elements/card/card.component';
+import { TopBarComponent } from 'src/app/elements/top-bar/top-bar.component';
+import { RowButtonComponent } from 'src/app/elements/row-button/row-button.component';
 
 @NgModule({
   imports: [
@@ -14,6 +16,6 @@ import { CardComponent } from 'src/app/elements/card/card.component';
     FormsModule,
     Tab1PageRoutingModule
   ],
-  declarations: [Tab1Page, CardComponent]
+  declarations: [Tab1Page, CardComponent, TopBarComponent, RowButtonComponent]
 })
 export class Tab1PageModule {}

@@ -4,15 +4,15 @@
 /** Ionic CSS Variables **/
 :root {
   /** primary **/
-  --ion-color-primary: #3880ff;
+  --ion-color-primary: #070F8C;
   --ion-color-primary-rgb: 56, 128, 255;
   --ion-color-primary-contrast: #ffffff;
   --ion-color-primary-contrast-rgb: 255, 255, 255;
-  --ion-color-primary-shade: #3171e0;
+  --ion-color-primary-shade: #070F8C;
   --ion-color-primary-tint: #4c8dff;
 
   /** secondary **/
-  --ion-color-secondary: #3dc2ff;
+  --ion-color-secondary: #0D0F40;
   --ion-color-secondary-rgb: 61, 194, 255;
   --ion-color-secondary-contrast: #ffffff;
   --ion-color-secondary-contrast-rgb: 255, 255, 255;
@@ -242,4 +242,60 @@
 
 .row ion-icon {
   margin: 0 12px;
+}
+
+.img-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.img-wrapper img {
+  margin: auto;
+}
+
+.img-wrapper h5, h1, p {
+  padding-left: 16px;
+  color: var(--ion-color-secondary);
+}
+.img-wrapper span {
+  font-weight: normal;
+  font-size: 16px;
+  margin-left: -12px;
+  padding-left: 16px;
+  color: var(--ion-color-secondary);
+}
+
+.img-wrapper p {
+  margin-top: 0;
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+.img-wrapper h1 {
+  margin-top: -16px;
+  font-size: 32px;
+  font-weight: bolder;
+}
+
+.img-wrapper h5 {
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+.small-img-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.small-img-wrapper img {
+  margin: auto;
+  height: 150px;
+}
+
+.small-img-wrapper h1 {
+  margin-top: -24px;
+  font-size: 36px;
+  font-weight: bolder;
 }

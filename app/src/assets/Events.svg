@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="277" height="277" viewBox="0 0 277 277">
+  <defs>
+    <clipPath id="clip-Events">
+      <rect width="277" height="277"/>
+    </clipPath>
+  </defs>
+  <g id="Events" clip-path="url(#clip-Events)">
+    <rect width="277" height="277" fill="#fff"/>
+    <path id="Pfad_27" data-name="Pfad 27" d="M44.132,62.743c38.983-35.679,55.975-42.288,106.1-52.991s63.012-15.908,94.4,10.177c21.93,18.224,21.846,74.048,0,132.537s-12.517,94.4-103.76,96.742S18.484,199.082-5.7,152.466,5.149,98.422,44.132,62.743Z" transform="translate(15 13)" fill="#bbe2db"/>
+    <g id="Gruppe_12" data-name="Gruppe 12" transform="translate(-34 -101)">
+      <g id="Ellipse_4" data-name="Ellipse 4" transform="translate(100 151)" fill="#f2cb04" stroke="#f2cb04" stroke-width="1">
+        <circle cx="8" cy="8" r="8" stroke="none"/>
+        <circle cx="8" cy="8" r="7.5" fill="none"/>
+      </g>
+      <g id="Ellipse_5" data-name="Ellipse 5" transform="translate(48 172)" fill="#f2cb04" stroke="#f2cb04" stroke-width="1">
+        <circle cx="10.5" cy="10.5" r="10.5" stroke="none"/>
+        <circle cx="10.5" cy="10.5" r="10" fill="none"/>
+      </g>
+      <g id="Ellipse_6" data-name="Ellipse 6" transform="translate(64 133)" fill="#f2cb04" stroke="#f2cb04" stroke-width="1">
+        <circle cx="5" cy="5" r="5" stroke="none"/>
+        <circle cx="5" cy="5" r="4.5" fill="none"/>
+      </g>
+      <g id="Ellipse_7" data-name="Ellipse 7" transform="translate(74 162)" fill="#f2cb04" stroke="#f2cb04" stroke-width="1">
+        <circle cx="5" cy="5" r="5" stroke="none"/>
+        <circle cx="5" cy="5" r="4.5" fill="none"/>
+      </g>
+      <g id="Ellipse_8" data-name="Ellipse 8" transform="translate(260 327)" fill="#f2cb04" stroke="#f2cb04" stroke-width="1">
+        <circle cx="8" cy="8" r="8" stroke="none"/>
+        <circle cx="8" cy="8" r="7.5" fill="none"/>
+      </g>
+      <g id="Ellipse_9" data-name="Ellipse 9" transform="translate(286 301)" fill="#f2cb04" stroke="#f2cb04" stroke-width="1">
+        <circle cx="5" cy="5" r="5" stroke="none"/>
+        <circle cx="5" cy="5" r="4.5" fill="none"/>
+      </g>
+      <g id="Ellipse_10" data-name="Ellipse 10" transform="translate(281 324)" fill="#f2cb04" stroke="#f2cb04" stroke-width="1">
+        <circle cx="4" cy="4" r="4" stroke="none"/>
+        <circle cx="4" cy="4" r="3.5" fill="none"/>
+      </g>
+    </g>
+    <g id="connect_without_contact-24px" transform="translate(64.98 64.98)">
+      <rect id="Rechteck_5" data-name="Rechteck 5" width="148" height="148" transform="translate(0.019 0.019)" fill="none"/>
+      <path id="Pfad_28" data-name="Pfad 28" d="M57.507,76.01H45.172A55.512,55.512,0,0,1,100.68,20.5V32.837A43.141,43.141,0,0,0,57.507,76.01Zm43.172-18.5V45.172A30.849,30.849,0,0,0,69.842,76.01H82.177A18.478,18.478,0,0,1,100.68,57.507ZM32.837,14.335A12.335,12.335,0,1,0,20.5,26.67,12.292,12.292,0,0,0,32.837,14.335Zm27.445,3.084H47.948A18.439,18.439,0,0,1,29.754,32.837h-18.5A9.239,9.239,0,0,0,2,42.089V57.507H39V43.569A30.653,30.653,0,0,0,60.283,17.419Zm46.564,77.093A12.335,12.335,0,1,0,94.512,82.177,12.292,12.292,0,0,0,106.847,94.512Zm9.251,6.167H97.6A18.439,18.439,0,0,1,79.4,85.261H67.067a30.653,30.653,0,0,0,21.278,26.15v13.938h37V109.931A9.239,9.239,0,0,0,116.1,100.68Z" transform="translate(10.335 10.335)" fill="#f5f5f5"/>
+    </g>
+  </g>
+</svg>

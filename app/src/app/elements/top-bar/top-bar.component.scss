@@ -1,0 +1,13 @@
+.top-bar {
+  display: block;
+  overflow: hidden;
+  float: right;
+  margin-right: -12px;
+  margin-bottom: -12px;
+}
+
+.top-bar span {
+  font-size: 14px;
+  font-weight: bold;
+  color: var(--ion-color-primary);
+}
