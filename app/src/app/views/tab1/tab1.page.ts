@@ -8,18 +8,18 @@ import { CheckInData } from 'src/app/types/checkInData';
 })
 export class Tab1Page implements OnInit {
   public checkInData: CheckInData;
+  public showPopup = true;
   public toggleRisk = false;
-  constructor() {}
+  constructor() { }
 
   ngOnInit(): void {
-    this.checkInData = {
-      id: 'ID',
-      time: '20:15',
-      name: 'Cafe Standard'
-    };
+    setTimeout(() => {
+      this.checkInData = {
+        id: 'ID',
+        time: '20:15',
+        name: 'Cafe Standard'
+      };
+    }, 2000);
   }
-
-  public confirmCheckInNotice(): void {
-    this.checkInData = null;
-  }
+  
 }

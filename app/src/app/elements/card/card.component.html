@@ -1,6 +1,9 @@
-<div
-  class="card"
-  [style.color]="bright ? 'black' : 'white'"
-  [style.background-color]="color">
-  <ng-content></ng-content>
+<div class="card">
+  <div class="icon">
+    <ion-icon name="checkmark-outline" size="large"></ion-icon>
+  </div>
+  <div class="row">
+    <h4> {{title}} </h4>
+    <h5> {{date}} </h5>
+  </div>
 </div>

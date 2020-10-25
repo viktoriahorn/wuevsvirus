@@ -1,17 +1,10 @@
 <ion-content [fullscreen]="true">
+  <app-popup *ngIf="showPopup && checkInData" [title]="checkInData.name" [date]="checkInData.time" (close)="this.showPopup = false"></app-popup>
+
   <app-top-bar></app-top-bar>
 
   <div class="page">
-    <app-card 
-      *ngIf="false"
-      bright="true"
-      color="white">
-      <h2>Neuer Check-In</h2>
-      <p>Du bist eingecheckt: <b>{{ checkInData.name }}</b> </p>
-      <ion-button
-        (click)="confirmCheckInNotice()"
-        [style.float]="'right'"
-        color="primary">Ok</ion-button>
+    <app-card *ngIf="checkInData && !showPopup" [title]="checkInData.name" [date]="checkInData.time">
     </app-card>
     <div
       (click)="toggleRisk = !toggleRisk"

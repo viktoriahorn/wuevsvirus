@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 
 @Component({
   selector: 'app-card',
@@ -6,10 +6,9 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./card.component.scss'],
 })
 export class CardComponent implements OnInit {
-  @Input()
-  public color: string;
-  @Input()
-  public bright = false;
+  @Output() public leave: EventEmitter<void> = new EventEmitter();
+  @Input() public title: string;
+  @Input() public date: string;
   constructor() { }
 
   ngOnInit() {}

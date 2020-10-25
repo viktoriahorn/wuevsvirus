@@ -1,7 +1,43 @@
 .card {
-  border-radius: 4px;
+  left: 16px;
+  right: 16px;
+  position: absolute;
+  border-radius: 16px;
+  top: 50px;
+  background-color: white;
   padding: 8px 16px;
   box-shadow: 1px 1px 4px rgba(0,0,0,0.3);
-  margin-bottom: 16px;
   overflow: hidden;
+  display: flex;
+  align-items: center;
+
+  .row {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    justify-content: left;
+    align-items: flex-start;
+  }
+  .row h4, h5 {
+    margin: 0;
+    text-align: left;
+  }
+
+  .row h5 {
+    font-weight: normal;
+  }
+
+  .icon {
+    margin-right: 16px;
+    height: 50px;
+    width: 50px;
+    background-color: #B8E1D9;
+    border-radius: 50px;
+    display: flex;
+  }
+
+  .icon ion-icon {
+    margin: auto;
+    color: white;
+  }
 }
