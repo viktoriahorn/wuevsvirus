@@ -7,17 +7,28 @@
         <img src="assets/Events.svg">
         <h1>Deine<br>Veranstaltungen</h1>
       </div>
-      <ng-container *ngFor="let item of events">
-        <app-event-item [title]="item.title" [date]="item.date" (delete)="deleteEvent($event)"></app-event-item>
+      <div *ngIf="events.length === 0">
+        <p>Keine Veranstaltungen vorhanden.</p>
+      </div>
+      <ng-container *ngFor="let item of events; let i = index">
+        <app-event-item [title]="item.title" [date]="item.date" [index]="i" (delete)="deleteEvent($event)"></app-event-item>
       </ng-container>
-      <app-row-button label="Eigenes Event erstellen" (callback)="createMode = !createMode"></app-row-button> 
+      <app-row-button label="Veranstaltung erstellen" (callback)="createMode = !createMode"></app-row-button> 
     </ng-container>
     <ng-container *ngIf="createMode">
       <div class="small-img-wrapper">
         <img src="assets/Events.svg">
         <h1>Veranstaltung<br>erstellen</h1>
+        <ion-item>
+          <ion-label color="primary"><b>Name</b></ion-label>
+          <ion-input [(ngModel)]="formEvent.title"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label color="primary"><b>Datum</b></ion-label>
+          <ion-input [(ngModel)]="formEvent.date"></ion-input>
+        </ion-item>
       </div>
-      <app-row-button label="Eigenes Event erstellen" (callback)="createMode = !createMode"></app-row-button> 
+      <app-row-button label="Veranstaltung hinzufügen" (callback)="addEvent()"></app-row-button> 
     </ng-container>
   </div>
 </ion-content>
